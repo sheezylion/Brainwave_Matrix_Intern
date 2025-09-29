@@ -49,5 +49,27 @@ sudo systemctl enable docker
 
 <img width="985" height="389" alt="Screenshot 2025-09-29 at 23 56 25" src="https://github.com/user-attachments/assets/d5315415-cbf7-4c90-b3cf-c8767d705789" />
 
+### 4. Clone the Web App Repository
+
+```
+git clone https://github.com/sheezylion/Brainwave_Matrix_Intern.git
+cd Brainwave_Matrix_Intern
+```
+
+<img width="1143" height="500" alt="Screenshot 2025-09-29 at 23 59 09" src="https://github.com/user-attachments/assets/0e66caeb-f6b6-43dd-bb04-eccac1f3860d" />
+
+### 5. Build and Run Docker Container
+
+```
+# Build Docker image
+docker build -t web-app .
+
+# Run container (map port 80 of EC2 to port 80 inside container)
+sudo docker run -d -p 80:80 --name web-container web-app
+```
+
+<img width="1528" height="782" alt="Screenshot 2025-09-30 at 00 02 08" src="https://github.com/user-attachments/assets/fa32a12a-3452-4c7d-a0ac-a559a8434502" />
+
+
 
 
