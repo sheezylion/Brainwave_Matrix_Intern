@@ -44,3 +44,10 @@ sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
+<img width="929" height="902" alt="Screenshot 2025-09-29 at 23 54 46" src="https://github.com/user-attachments/assets/51e9eafb-2148-4948-b521-960e39f7e6f7" />
+
+
+<img width="985" height="389" alt="Screenshot 2025-09-29 at 23 56 25" src="https://github.com/user-attachments/assets/d5315415-cbf7-4c90-b3cf-c8767d705789" />
+
+
+
