@@ -70,6 +70,30 @@ sudo docker run -d -p 80:80 --name web-container web-app
 
 <img width="1528" height="782" alt="Screenshot 2025-09-30 at 00 02 08" src="https://github.com/user-attachments/assets/fa32a12a-3452-4c7d-a0ac-a559a8434502" />
 
+### 6. Test Deployment
+
+- Inside EC2:
+
+```
+curl http://localhost
+```
+
+<img width="1002" height="1039" alt="Screenshot 2025-09-30 at 00 05 42" src="https://github.com/user-attachments/assets/914263b1-c0cf-4de5-8b71-38789bee437d" />
 
 
+- From browser:
+
+```
+http://<EC2_PUBLIC_IP>
+```
+
+<img width="1344" height="1012" alt="Screenshot 2025-09-30 at 00 12 53" src="https://github.com/user-attachments/assets/1466940b-4d08-4ff8-a281-83860fce6ac8" />
+
+### Notes
+
+- Default VPC was used for simplicity. For production, we would create a custom VPC.
+
+- Security Group only exposes port 22 and 80.
+
+- App runs in Docker container, making it portable and isolated.
 
