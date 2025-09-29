@@ -1,4 +1,7 @@
 # Deploy a web application in AWS
+
+To deploy a web application on AWS, you need to configure several AWS services. This guide will walk you through the process, starting with the prerequisites and then detailing each step required to successfully launch and test your web application.
+
 ## Prerequisites
 - AWS Account
 - SSH Key Pair
